@@ -1,0 +1,10 @@
+while True:
+    odgovor = str(raw_input("ali zelite pretvoriti kilometre v milje(da ne)").lower())
+    if odgovor == "da":
+        print "pozdravljeni v pretvornik km v milje."
+        kilometri = int(raw_input("vnesite stevilo km :"))
+        kilometri = kilometri*2
+        print "to je " + str(kilometri) + " milj"
+    else:
+        print "nasvidenje"
+        break
